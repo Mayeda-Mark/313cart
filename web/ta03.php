@@ -17,6 +17,7 @@ echo $major;
 echo "<br>";
 echo $comment;
 echo "<br>";
+echo "Continents Visited:" <br>;
 foreach ($continent as $continentName){
 	echo $continentName;
 	echo "<br>";

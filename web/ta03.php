@@ -4,6 +4,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $major = $_POST['major'];
 $comment = $_POST['comment'];
+$continent = $_POST['continent'];
 
 
 
@@ -15,5 +16,10 @@ echo "<br>";
 echo $major;
 echo "<br>";
 echo $comment;
+echo "<br>";
+foreach ($continent as $continentName){
+	echo $continentName;
+	echo "<br>";
+}
 
 ?>

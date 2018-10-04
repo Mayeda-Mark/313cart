@@ -7,7 +7,7 @@ $comments = $_POST['comment'];
 
 
 
-echo "<h1>Your Input:</h1>"
+echo "<h1>Your Input:</h1>";
 echo $name;
 echo "<br>";
 echo $email;

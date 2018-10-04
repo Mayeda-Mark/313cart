@@ -3,7 +3,7 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $major = $_POST['major'];
-$comments = $_POST['comment'];
+$comment = $_POST['comment'];
 
 
 

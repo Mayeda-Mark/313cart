@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,9 +25,9 @@
 				<th>Description</th>
 			</tr>
 			<tr>
-				<td><a href="https://imgur.com/pea2Bth"><img src="https://i.imgur.com/pea2Bth.png" title="source: imgur.com" width="100" height="75" /></a></td>
+				<td><img src="https://i.imgur.com/pea2Bth.png" title="source: imgur.com" width="100" height="75" /></a></td>
 				<td>Mr. Buttons</td>
-				<td><a href="https://imgur.com/eADvu2n"><img src="https://i.imgur.com/eADvu2n.jpg" title="source: imgur.com" width="150" height="125" /></a></td>
+				<td><img src="https://i.imgur.com/eADvu2n.jpg" title="source: imgur.com" width="150" height="125" /></a></td>
 				<td>$50</td>
 				<td>Mr. Buttons is a lovely gray cat.  He has a very outgoing personality but refuses to ever take a bath.</td>
 			</tr>

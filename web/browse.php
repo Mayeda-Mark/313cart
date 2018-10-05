@@ -93,5 +93,10 @@
 			</tr>
 		</table>
 	</form>
+	<div class="footer">
+		<?php 
+		include 'footer.php'
+		;?>
+	</div>
 </body>
 </html>

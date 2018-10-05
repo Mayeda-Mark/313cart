@@ -6,13 +6,17 @@
 </head>
 <body>
 	<div class="header">
-		<?php include 'header.php';?>
+		<?php 
+		include 'header.php';
+		?>
 	</div>
 	<h1>Home</h1>
 	<p>Welcome to Mark's Cat Emporium!  Home for all of your cats and cat needs.  Click the link below to see all of our amazing cats and products!</p>
 	<a href="browse.html">Click Here!</a>
 	<div class="footer">
-		<?php include 'footer.php';?>
+		<?php 
+		include 'footer.php';
+		?>
 	</div>
 </body>
 </html>

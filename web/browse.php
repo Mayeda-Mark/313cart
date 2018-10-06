@@ -27,7 +27,7 @@ session_start();
 			<tr>
 				<td>
 					<form id="mrButtons" action="">
-						<input type="submit" src="https://i.imgur.com/pea2Bth.png"     width="100" height="75" form="mrButtons" >
+						<input type="submit" value="Add to Cart" " form="mrButtons" >
 				</form></td>
 				<td>Mr. Buttons</td>
 				<td><img src="https://i.imgur.com/eADvu2n.jpg" width="150" height="125" /></td>

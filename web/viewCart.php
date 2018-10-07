@@ -1,5 +1,9 @@
 <?php
 session_start()
+	$products = $_POST['product'];
+	foreach ($products as $product) {
+		$_SESSION["items"] = $product;
+	}
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,7 +19,7 @@ session_start()
 		<?php
 			$products = $_POST['product'];
 			foreach ($products as $product) {
-				$_SESSION["product"] = $product;
+				echo "$product<br>";
 			}
 			print_r($_SESSION);
 		?>

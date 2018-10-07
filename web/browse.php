@@ -27,6 +27,8 @@ session_start();
 	<div class="footer">
 		<?php include 'footer.php';?>
 	</div>
+	<h1>Click on an item's checkbox to add them to your cart</h1>
+	<form name="cart" method="post" action="viewCart.php">
 		<table class="table" ="table">
 			<tr>
 				<th></th>
@@ -37,11 +39,7 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="mrButtons" method="post" action="addToCart.php">
-						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden"
-						<?php if (isset($products)) echo "checked";
-						?>>
-						<input type="submit" value="Add to Cart" form="mrButtons">
+						<input type="checkbox" name="products[]" value="Mr. Buttons" >
 				</form></td>
 				<td>Mr. Buttons</td>
 				<td><img src="https://i.imgur.com/eADvu2n.jpg" width="150" height="125" /></td>
@@ -50,10 +48,7 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="freddyMeowcurry" method="post" action="addToCart.php">
-						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
-						<input type="submit" value="Add to Cart" form="freddyMeowcurry">
-					</form></td>
+						<input type="checkbox" name="products[]" value="Freddy Meowcurry" ></td>
 				<td>"Freddy Meowcurry"</td>
 				<td><img src="https://i.imgur.com/AGThVJj.jpg" width="150" height="125"/></td>
 				<td>$50</td>
@@ -61,10 +56,7 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="calicoJack" method="post" action="addToCart.php">
-						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
-						<input type="submit" value="Add to Cart" form="calicoJack">
-					</form></td>
+						<input type="checkbox" name="products[]" value="Calico Jack"></td>
 				<td>Calico Jack</td>
 				<td><img src="https://i.imgur.com/2jbNmgN.jpg" height="125" width="150" /></td>
 				<td>$50</td>
@@ -72,10 +64,7 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="spock" method="post" action="addToCart.php">
-						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
-						<input type="submit" value="Add to Cart" form="spock">
-					</form></td>
+						<input type="checkbox" name="products[]" value="Spock"></td>
 				<td>Spock</td>
 				<td><img src="https://i.imgur.com/O8RxLUb.jpg" width="150" height="125" /></td>
 				<td>$50</td>
@@ -83,10 +72,7 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="astoroth" method="post" action="addToCart.php">
-						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
-						<input type="submit" value="Add to Cart" form="astoroth">
-					</form></td>
+						<input type="checkbox" name="products[]" value="Astoroth, the World Breaker"></td>
 				<td>Astoroth, the World Breaker</td>
 				<td><img src="https://i.imgur.com/7t2X5tC.jpg" width="150" height="125" /></td>
 				<td>$75</td>
@@ -94,10 +80,7 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="paul" method="post" action="addToCart.php">
-						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
-						<input type="submit" value="Add to Cart" form="paul">
-					</form></td>
+						<input type="checkbox" name="products[]" value="Paul"></td>
 				<td>Paul</td>
 				<td><img src="https://i.imgur.com/aEwwYYG.jpg" width="125" height="125" /></td>
 				<td>$20</td>
@@ -105,10 +88,7 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="brush" method="post" action="addToCart.php">
-						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
-						<input type="submit" value="Add to Cart" form="brush">
-					</form></td>
+						<input type="checkbox" name="products[]" value="Licki Brush"></td>
 				<td>Licki Brush</td>
 				<td><img src="https://i.imgur.com/2EyL6p3.jpg" width="150" height="125" /></td>
 				<td>$25</td>
@@ -116,10 +96,7 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="wheel" method="post" action="addToCart.php">
-						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
-						<input type="submit" value="Add to Cart" form="wheel">
-					</form></td>
+						<input type="checkbox" name="products[]" value="Cat Exercise Wheel"></td>
 				<td>Cat Exercise Wheel</td>
 				<td><img src="https://i.imgur.com/LL3wOWR.jpg" width="150" height="125" /></td>
 				<td>$50</td>
@@ -127,10 +104,7 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="carrier" method="post" action="addToCart.php">
-						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
-						<input type="submit" value="Add to Cart" form="carrier">
-					</form></td>
+						<input type="checkbox" name="products[]" value="U-Pet Carrier"></td>
 				<td>U-Pet Carrier</td>
 				<td><img src="https://i.imgur.com/QWtoZ2S.jpg" width="125" height="125" /></td>
 				<td>$35</td>
@@ -138,26 +112,20 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="mittons" method="post" action="addToCart.php">
-						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
-						<input type="submit" value="Add to Cart" form="mittons">
-					</form></td>
+						<input type="checkbox" name="products[]" value="Kitten Mittons"></td>
 				<td>Kitten Mittons</td>
 				<td><img src="https://i.imgur.com/Zjm0949.jpg" width="150" height="125" /></td>
 				<td>$20</td>
 				<td> Is your cat making TOO MUCH NOISE all the time? Is your cat constantly stomping around driving you crazy? Is your cat clawing at your furnitures? Think there’s no answer? You’re so stupid. There is! Kitten Mittons! Finally there’s an elegant, comfortable mitten for cats! Is your cat one legged? Is your cat fat, skinny or an in between? That doesn’t matter ‘cuz one size fits all! Kitten Mittons, you’ll be smitten. Meee-owww!</td>
 			</tr>
 		</table>
-		<div id="emptySpace"></div>
-		<div id="test">
-			<?php
-			print_r($_SESSION);
-			?>
-		</div>
 	<div class="footer">
 		<?php 
 		include 'footer.php'
 		;?>
 	</div>
+
+			<button name="submit" type="submit" form="cart">View Cart</button>
+	</form>
 </body>
 </html>

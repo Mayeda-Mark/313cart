@@ -13,7 +13,11 @@ session_start()
 	</div>
 	<div>
 		<?php
-print_r($_SESSION)
+			$products = $_POST['product'];
+			foreach ($products as $product) {
+				$_SESSION['product'] = $product;
+			}
+			print_r($_SESSION)
 		?>
 	</div>
 	<div class="footer">

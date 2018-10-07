@@ -26,8 +26,9 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="mrButtons" method="post" action="">
-						<input type="button" value="Add to Cart" onclick="addToCart('Mr. Buttons', 50);" >
+					<form id="mrButtons" method="post" action="addToCart.php">
+						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
+						<input name="Mr. Buttons" type="submit" value="Add to Cart" form="mrButtons">
 				</form></td>
 				<td>Mr. Buttons</td>
 				<td><img src="https://i.imgur.com/eADvu2n.jpg" width="150" height="125" /></td>

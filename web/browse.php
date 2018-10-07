@@ -5,7 +5,6 @@ session_start();
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<script type="text/javascript" src="cart.js"></script>
 	<title>Browse</title>
 </head>
 <body>
@@ -28,7 +27,7 @@ session_start();
 		<?php include 'footer.php';?>
 	</div>
 	<h1>Click on an item's checkbox to add them to your cart</h1>
-	<form name="cart" method="post" action="viewCart.php">
+	<form id="cart" method="post" action="viewCart.php">
 		<table class="table" ="table">
 			<tr>
 				<th></th>

@@ -9,6 +9,17 @@ session_start();
 	<title>Browse</title>
 </head>
 <body>
+<?php
+	$products = "";
+
+	function test_input($data) {
+		$data = trim($data);
+		$data = stripcslashes($data);
+		$data = htmlspecialchars($data);
+		return $data;
+	}
+?>
+
 	<div class="header">
 		<?php include 'header.php';?>
 	</div>
@@ -27,7 +38,9 @@ session_start();
 			<tr>
 				<td>
 					<form id="mrButtons" method="post" action="addToCart.php">
-						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
+						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden"
+						<?php if (isset($products)) echo "checked";
+						?>>
 						<input type="submit" value="Add to Cart" form="mrButtons">
 				</form></td>
 				<td>Mr. Buttons</td>

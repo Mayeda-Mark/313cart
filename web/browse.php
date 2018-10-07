@@ -28,7 +28,7 @@ session_start();
 				<td>
 					<form id="mrButtons" method="post" action="addToCart.php">
 						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
-						<input name="Mr. Buttons" type="submit" value="Add to Cart" form="mrButtons">
+						<input type="submit" value="Add to Cart" form="mrButtons">
 				</form></td>
 				<td>Mr. Buttons</td>
 				<td><img src="https://i.imgur.com/eADvu2n.jpg" width="150" height="125" /></td>
@@ -37,7 +37,8 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="freddyMeowcurry" method="post" action="">
+					<form id="freddyMeowcurry" method="post" action="addToCart.php">
+						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
 						<input type="submit" value="Add to Cart" form="freddyMeowcurry">
 					</form></td>
 				<td>"Freddy Meowcurry"</td>
@@ -47,7 +48,8 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="calicoJack" method="post" action="">
+					<form id="calicoJack" method="post" action="addToCart.php">
+						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
 						<input type="submit" value="Add to Cart" form="calicoJack">
 					</form></td>
 				<td>Calico Jack</td>
@@ -57,7 +59,8 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="spock" method="post" action="">
+					<form id="spock" method="post" action="addToCart.php">
+						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
 						<input type="submit" value="Add to Cart" form="spock">
 					</form></td>
 				<td>Spock</td>
@@ -67,7 +70,8 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="astoroth" method="post" action="">
+					<form id="astoroth" method="post" action="addToCart.php">
+						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
 						<input type="submit" value="Add to Cart" form="astoroth">
 					</form></td>
 				<td>Astoroth, the World Breaker</td>
@@ -77,7 +81,8 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="paul" method="post" action="">
+					<form id="paul" method="post" action="addToCart.php">
+						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
 						<input type="submit" value="Add to Cart" form="paul">
 					</form></td>
 				<td>Paul</td>
@@ -87,7 +92,8 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="brush" method="post" action="">
+					<form id="brush" method="post" action="addToCart.php">
+						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
 						<input type="submit" value="Add to Cart" form="brush">
 					</form></td>
 				<td>Licki Brush</td>
@@ -97,7 +103,8 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="wheel" method="post" action="">
+					<form id="wheel" method="post" action="addToCart.php">
+						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
 						<input type="submit" value="Add to Cart" form="wheel">
 					</form></td>
 				<td>Cat Exercise Wheel</td>
@@ -107,7 +114,8 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="carrier" method="post" action="">
+					<form id="carrier" method="post" action="addToCart.php">
+						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
 						<input type="submit" value="Add to Cart" form="carrier">
 					</form></td>
 				<td>U-Pet Carrier</td>
@@ -117,7 +125,8 @@ session_start();
 			</tr>
 			<tr>
 				<td>
-					<form id="mittons" method="post" action="">
+					<form id="mittons" method="post" action="addToCart.php">
+						<input type="checkbox" name="products" value="Mr. Buttons" checked style="visibility: hidden">
 						<input type="submit" value="Add to Cart" form="mittons">
 					</form></td>
 				<td>Kitten Mittons</td>

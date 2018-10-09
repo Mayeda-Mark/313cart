@@ -89,6 +89,7 @@ session_start();
   		<br><br>
   		Credit Card: <input type="text" name="credit" value="<?php echo $credit;?>">
   		<span class="error">* <?php echo $creditErr;?></span>
+  		<br><br>
   		<input type="submit" name="submit" value="Confirm Purchase">  
 	</form>
 	<div class="footer">

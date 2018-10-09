@@ -6,6 +6,8 @@
 
 .header {
 	text-align: center;
+	font-style: bold;
+	font-size: 24;
 	color: aqua;
 	background-color: black
 }
@@ -13,10 +15,6 @@
 .footer {
 	font-size: 10px;
 	font-style: italic;
-}
-
-.table {
-	border: 1px black;
 }
 
 body {

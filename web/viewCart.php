@@ -18,7 +18,7 @@ session_start();
 	<h1>Please review your purchases:</h1>
 	<div>
 		<?php
-			echo "<table class='table'><tr><th>Item</th></tr>";
+			echo "<table class='table' style='border: 1px solid black';><tr><th>Item</th></tr>";
 			foreach ($_SESSION["items"] as $purchases) {
 				echo "<tr><td>$purchases</td></tr>";
 			}
@@ -28,7 +28,7 @@ session_start();
 		<input type="button" onclick="location.href='checkout.php';" value="Click here to checkout">
 		<input type="button" onclick="location.href='browse.php';" value="Click here to go back to our cats">
 	</div>
-	
+
 	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<div class="footer">
 		<?php include 'footer.php';?>

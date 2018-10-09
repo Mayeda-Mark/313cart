@@ -22,13 +22,9 @@ session_start();
 	<div class="header">
 		<?php include 'header.php';?>
 	</div>
-	<h1>Browse</h1>
-	<div class="footer">
-		<?php include 'footer.php';?>
-	</div>
 	<h1>Click on an item's checkbox to add them to your cart</h1>
 	<form id="cart" method="post" action="viewCart.php">
-		<table class="table">
+		<table class="table" style='border: 1px solid black';>
 			<tr>
 				<th></th>
 				<th>Item</th>

@@ -68,7 +68,7 @@ session_start();
 	<h2>Here is your purchase:</h2>
 	<span>
 		<?php
-			echo "<table class='table'><tr><th>Item</th></tr>";
+			echo "<table class='table' style='border: 1px solid black';><tr><th>Item</th></tr>";
 			foreach ($_SESSION["items"] as $purchases) {
 				echo "<tr><td>$purchases</td></tr>";
 			}
@@ -92,6 +92,8 @@ session_start();
   		<br><br>
   		<input type="submit" name="submit" value="Confirm Purchase">  
 	</form>
+	<br><br><br><br><br><br>
+
 	<div class="footer">
 		<?php include 'footer.php';?>
 	</div>

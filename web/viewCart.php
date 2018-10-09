@@ -26,7 +26,7 @@ session_start();
 		?>
 		<br>
 		<input type="button" onclick="location.href='checkout.php';" value="Click here to checkout">
-		<button href="browse.php">Click here to return to our cats</button>
+		<input type="button" onclick="location.href='browse.php';" value="Click here to go back to our cats">
 	</div>
 	<div class="footer">
 		<?php include 'footer.php';?>

@@ -1,1 +1,24 @@
 /* stylesheet.css */
+
+.error {
+	color: #FF0000;
+}
+
+#header {
+	text-align: center;
+	color: blue;
+	background-color: black
+}
+
+#footer {
+	font-size: 8px;
+}
+
+#table {
+	border: 1px black;
+}
+
+body {
+  border-left: 50px solid green;
+  border-right: 50px solid green;
+}

@@ -24,6 +24,9 @@ session_start();
 			}
 			echo "</table>";
 		?>
+		<br>
+		<button href="checkout.php">Click here to checkout</button>
+		<button href="browse.php">Click here to return to our cats</button>
 	</div>
 	<div class="footer">
 		<?php include 'footer.php';?>

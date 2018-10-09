@@ -118,13 +118,13 @@ session_start();
 				<td> Is your cat making TOO MUCH NOISE all the time? Is your cat constantly stomping around driving you crazy? Is your cat clawing at your furnitures? Think there’s no answer? You’re so stupid. There is! Kitten Mittons! Finally there’s an elegant, comfortable mitten for cats! Is your cat one legged? Is your cat fat, skinny or an in between? That doesn’t matter ‘cuz one size fits all! Kitten Mittons, you’ll be smitten. Meee-owww!</td>
 			</tr>
 		</table>
+			<button name="submit" type="submit" form="cart">View Cart</button>
+	</form>
 	<div class="footer">
 		<?php 
 		include 'footer.php'
 		;?>
 	</div>
 
-			<button name="submit" type="submit" form="cart">View Cart</button>
-	</form>
 </body>
 </html>

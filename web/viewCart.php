@@ -18,7 +18,7 @@ session_start();
 	<h1>Please review your purchases:</h1>
 	<div>
 		<?php
-			echo "<table class='table' style='border: 1px solid black';><tr><th>Item</th></tr>";
+			echo "<table style='border: 1px solid black';><tr><th>Item</th></tr>";
 			foreach ($_SESSION["items"] as $purchases) {
 				echo "<tr><td>$purchases</td></tr>";
 			}

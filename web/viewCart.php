@@ -15,13 +15,14 @@ session_start();
 	<div class="header">
 		<?php include 'header.php';?>
 	</div>
+	<h1>Please review your purchases:</h1>
 	<div>
 		<?php
-			//$products = $_POST['products'];
+			echo "<table class="table"><tr><th>Item</th></tr>";
 			foreach ($_SESSION["items"] as $purchases) {
-				echo "$purchases<br>";
-
+				echo "<tr><td>$purchases</td></tr>";
 			}
+			echo "</table>";
 		?>
 	</div>
 	<div class="footer">

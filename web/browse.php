@@ -28,7 +28,7 @@ session_start();
 	</div>
 	<h1>Click on an item's checkbox to add them to your cart</h1>
 	<form id="cart" method="post" action="viewCart.php">
-		<table class="table" ="table">
+		<table class="table">
 			<tr>
 				<th></th>
 				<th>Item</th>

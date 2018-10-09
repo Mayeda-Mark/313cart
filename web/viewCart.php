@@ -25,7 +25,7 @@ session_start();
 			echo "</table>";
 		?>
 		<br>
-		<button href="checkout.php">Click here to checkout</button>
+		<input type="button" onclick="location.href='checkout.php';" value="Click here to checkout">
 		<button href="browse.php">Click here to return to our cats</button>
 	</div>
 	<div class="footer">

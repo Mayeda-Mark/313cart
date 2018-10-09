@@ -17,7 +17,7 @@ session_start()
 	</div>
 	<div>
 		<?php
-			$products = $_POST['product'];
+			$products = $_POST['products'];
 			foreach ($products as $product) {
 				echo "$product<br>";
 			}

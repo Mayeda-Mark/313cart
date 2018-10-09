@@ -1,9 +1,9 @@
 <?php
 session_start()
-	$products = $_POST['products'];
+	//$products = $_POST['products'];
 	//foreach ($products as $product) {
 	//	$_SESSION["items"][$product] = $product;
-	}
+	//}
 ?>
 <!DOCTYPE html>
 <html>
